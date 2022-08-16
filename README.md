@@ -15,20 +15,20 @@ imbalanced-learn 0.9.1<br>
 
 ディレクトリ構造
 ------------------------------------------
-├── README.md
-├── data
-│   ├── cubic_naitei_copy.csv
-│   ├── cubic_retire.csv
-│   └── cubic_sample.csv
-├── lib.bat
-├── main.bat
-├── main.py
-├── models
-│   ├── naitei.pkl
-│   └── retire.pkl
-└── train
-    ├── adoption_tr.py
-    └── retire_tr.py
+├── README.md<br>
+├── data<br>
+│   ├── cubic_naitei_copy.csv<br>
+│   ├── cubic_retire.csv<br>
+│   └── cubic_sample.csv<br>
+├── lib.bat<br>
+├── main.bat<br>
+├── main.py<br>
+├── models<br>
+│   ├── naitei.pkl<br>
+│   └── retire.pkl<br>
+└── train<br>
+    ├── adoption_tr.py<br>
+    └── retire_tr.py<br>
     
 各ディレクトリについて
 ------------------------------------------
