@@ -8,15 +8,15 @@ from sklearn import datasets
 from sklearn.model_selection import train_test_split
 import sys
 import os
+import openpyxl as excel
 
 # デバッグ用
 print(os.getcwd())
 
-file_paths = sys.orig_argv[1:]
-for path in file_paths:
-    path = os.path.relpath(path, "C:/")
+fp = sys.argv[1]
+print(fp)
 # データセット
-df = pd.read_csv("path")
+df = pd.read_csv("fp")
 
 df['内定有無'] = ''
 df['No.'] = ''
