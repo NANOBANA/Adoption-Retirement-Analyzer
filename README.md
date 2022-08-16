@@ -8,6 +8,11 @@ cubicのcsvデータを解析し,内定予想,退職予想の行を追加したc
 
 環境
 ------------------------------------------
+## OS <br>
+mac OS Big Sur Version 11.2.3 <br>
+Windows 10 pro <br>
+
+## ライブラリ関係 <br>
 python 3.10.0<br>
 scikit-learn 1.1.2<br>
 pandas 1.4.3<br>
