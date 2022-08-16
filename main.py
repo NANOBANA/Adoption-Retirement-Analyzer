@@ -8,7 +8,6 @@ from sklearn import datasets
 from sklearn.model_selection import train_test_split
 import sys
 import os
-import openpyxl as excel
 
 # デバッグ用
 print(os.getcwd())
@@ -16,7 +15,7 @@ print(os.getcwd())
 fp = sys.argv[1]
 print(fp)
 # データセット
-df = pd.read_csv("fp")
+df = pd.read_csv(fp)
 
 df['内定有無'] = ''
 df['No.'] = ''
