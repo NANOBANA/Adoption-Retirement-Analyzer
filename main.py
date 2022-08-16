@@ -8,12 +8,19 @@ from sklearn import datasets
 from sklearn.model_selection import train_test_split
 import sys
 import os
+import shutil
 
 # デバッグ用
 print(os.getcwd())
 
+try:
+    os.mkdir(os.getcwd() + "\output")
+except:
+    pass
+
 fp = sys.argv[1]
 print(fp)
+fn = os.path.basename(fp)
 # データセット
 df = pd.read_csv(fp)
 
@@ -80,4 +87,6 @@ df["退職予想"] = df["退職予想"].apply(re_reitre_convert)
 
 print(df)
 
-df.to_csv('out.csv', encoding='utf_8_sig')
+fn += 'out_file.csv'
+df.to_csv(fn, encoding='utf_8_sig')
+shutil.move(fn, 'output')
