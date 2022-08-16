@@ -1,7 +1,7 @@
 @echo off
 (	
-	python3 -m pip install --upgrade pip
-	python3 -m pip install -U pandas
-	python3 -m pip install -U sklearn
-	python3 -m pip install -U imblearn
+	pip install --upgrade pip
+	pip install -U pandas
+	pip install -U sklearn
+	pip install -U imblearn
 )

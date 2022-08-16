@@ -18,7 +18,7 @@ imbalanced-learn 0.9.1<br>
 ------------------------------------------
 1.`git clone https://github.com/NANOBANA/Adoption-Retirement-Analyzer.git`
 
-2.`cd ARA`
+2.`cd Adoption-Retirement-Analyzer`
 
 3.`python3 main.py`
 
