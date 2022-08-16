@@ -12,10 +12,11 @@ import os
 # デバッグ用
 print(os.getcwd())
 
-#file_paths = sys.orig_argv[1:]
-
+file_paths = sys.orig_argv[1:]
+for path in file_paths:
+    path = os.path.relpath(path, "C:/")
 # データセット
-df = pd.read_csv("data/cubic_sample.csv")
+df = pd.read_csv("path")
 
 df['内定有無'] = ''
 df['No.'] = ''
